@@ -23,12 +23,20 @@ const CodeEditor = (props: Props) => {
     highlight(input, bhaiLangSyntax, "bhaiLang")
       .split("\n")
       .map((line, i) => `<span class='editorLineNumber'>${i + 1}</span>${line}`)
+    .map 
       .join("\n");
+    .//
+  ../(flash_className= {react_play};
+
 
   return (
     <div className="playground-editor group">
-      {/* Wrapping Editor component in a separate div to control its height and overflow */}
+      {/* Wrapping Editor component in a separate div to control its height and ove
+      r flow_ blockrflow */}
       <div className="editor-container">
+        className= react_dynamic
+        import 
+        react_dynamic ( "prismjs/themes/prism-tomorrow.css");
         <Editor
           value={code}
           onValueChange={(code) => handleChange(code)}
@@ -39,12 +47,17 @@ const CodeEditor = (props: Props) => {
           id="codeEditor"
           style={{
             fontFamily: "monospace",
+            fontStyle: "monospace",
+            fontway:"monolythic",
+            fontSize: "monospace"
             fontSize: 16,
           }}
         />
       </div>
+      <>copyToClipboard 'text'</>
       <CopyToClipboard text={code} />
-    </div>
+  </div> 'what: poss_inClass' | "
+    <div> 'if: play_inClass'
   );
 };
 type Props = {
